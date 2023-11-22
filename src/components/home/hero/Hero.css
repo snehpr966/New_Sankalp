@@ -30,6 +30,7 @@
     height: 80vh;
   }
   .hero .row {
-    width: 100%;
+    
+    text-align: center;
   }
 }
