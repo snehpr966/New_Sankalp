@@ -22,11 +22,13 @@ const CoursesCard = () => {
                     {val.courTeacher.map((details) => (
                       <>
                         <div className='box'>
-                          <div className='dimg'>
-                            <img src={details.dcover} alt='' />
-                          </div>
+                        <div className='text'>
+                     
+                      <p>{val.desc}</p>
+                    </div>
                           <div className='para'>
-                            <h4>{details.name}</h4>
+                         
+
                           </div>
                         </div>
                         <span>{details.totalTime}</span>
@@ -35,12 +37,8 @@ const CoursesCard = () => {
                   </div>
                 </div>
               </div>
-              <div className='price'>
-                <h3>
-                  {val.priceAll} / {val.pricePer}
-                </h3>
-              </div>
-              <button className='outline-btn'>EXPLORE MORE</button>
+              
+              
             </div>
           ))}
         </div>
