@@ -12,20 +12,13 @@ const BlogCard = () => {
           <div className='text'>
             <div className='admin flexSB'>
               <span>
-                <i className='fa fa-user'></i>
-                <label htmlFor=''>{val.type}</label>
+              <i class="fa fa-bell" aria-hidden="true"></i>
               </span>
-              <span>
-                <i className='fa fa-calendar-alt'></i>
-                <label htmlFor=''>{val.date}</label>
-              </span>
-              <span>
-                <i className='fa fa-comments'></i>
-                <label htmlFor=''>{val.com}</label>
-              </span>
+              
             </div>
             <h1>{val.title}</h1>
             <p>{val.desc}</p>
+           <button type="button"><a href="https://docs.google.com/spreadsheets/d/1vy6a5EkTy0Q9-MbBchT5Hb7Pw4ENH53A/edit#gid=1159527586">Click Here</a></button>
           </div>
         </div>
       ))}

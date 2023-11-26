@@ -4,14 +4,15 @@
 }
 
 .coursesCard .items {
-  background-color: #fff;
+  background-color: #e4e3e3;
   padding: 30px;
   text-align: center;
   width: 500px;
-  height: 600px;
+  height: 500px;
+  border-radius:100px 30px 50px 30px;
 }
 .coursesCard .items:hover{
-  background-color: rgb(188, 241, 209);
+  background-color: rgb(75, 75, 75);
   color: white;
 }
 .coursesCard .img {
@@ -107,7 +108,7 @@
   opacity: 0;
 }
 .online .box:hover {
-  background-color: #1eb2a6;
+  background-color: rgb(75, 75, 75);
   border-radius: 5px;
   cursor: pointer;
 }

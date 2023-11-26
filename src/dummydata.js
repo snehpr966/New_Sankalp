@@ -8,27 +8,27 @@ export const homeAbout = [
   
 ]
 export const awrapper = [
-  {
-    cover: "https://img.icons8.com/external-yogi-aprelliyanto-basic-outline-yogi-aprelliyanto/80/ffffff/external-graduation-education-yogi-aprelliyanto-basic-outline-yogi-aprelliyanto.png",
-    data: "3,000",
-    title: "SUCCESS STORIES",
-  },
+  // {
+  //   cover: "https://img.icons8.com/external-yogi-aprelliyanto-basic-outline-yogi-aprelliyanto/80/ffffff/external-graduation-education-yogi-aprelliyanto-basic-outline-yogi-aprelliyanto.png",
+  //   data: "3,000",
+  //   title: "SUCCESS STORIES",
+  // },
 
-  {
-    cover: "https://img.icons8.com/ios/80/ffffff/athlete.png",
-    data: "320",
-    title: "TRUSTED TUTORS",
-  },
-  {
-    cover: "https://img.icons8.com/external-outline-icons-maxicons/80/ffffff/external-calender-insurance-outline-outline-icons-maxicons.png",
-    data: "1,000",
-    title: "SCHEDULES",
-  },
-  {
-    cover: "https://img.icons8.com/ios/80/ffffff/macbook-idea--v3.png",
-    data: "587",
-    title: "COURSES",
-  },
+  // {
+  //   cover: "https://img.icons8.com/ios/80/ffffff/athlete.png",
+  //   data: "320",
+  //   title: "TRUSTED TUTORS",
+  // },
+  // {
+  //   cover: "https://img.icons8.com/external-outline-icons-maxicons/80/ffffff/external-calender-insurance-outline-outline-icons-maxicons.png",
+  //   data: "1,000",
+  //   title: "SCHEDULES",
+  // },
+  // {
+  //   cover: "https://img.icons8.com/ios/80/ffffff/macbook-idea--v3.png",
+  //   data: "587",
+  //   title: "COURSES",
+  // },
 ]
 export const coursesCard = [
   {
@@ -42,8 +42,7 @@ export const coursesCard = [
         totalTime: "To establish an organization that is capable of eradicating the illiteracy which is due to poverty, i.e. lack of literacy due to economic status; further, identifying bright minds and enabling them to excel in their field of interest simultaneously monitoring their academic activities throughout their career..",
       },
     ],
-    priceAll: "$100 All Course",
-    pricePer: "$15 per month",
+    
   },
   {
     id: 2,
@@ -55,8 +54,7 @@ export const coursesCard = [
         totalTime: "1.Provide sound basic and moral education to the deprived Organizing 2.Parents-Teacher meet on a frequent basis, thus allowing guardians to get a thorough feedback of their child. 3.Conduction of Teacher’s Orientation Programme thus helping in increasing the efficiency of teachers 4.Bifurcation of the parent institution in various departments: it felicitates easy working of the organization." ,
       },
     ],
-    priceAll: "$200 All Course",
-    pricePer: "$25 per month",
+   
   },
   
 ]
@@ -191,58 +189,49 @@ export const faq = [
 export const blog = [
   {
     id: 1,
-    type: "admin",
-    date: "JAN. 18, 2021",
-    com: "3 COMMENTS ",
-    title: "Build your Dream Software & Engineering Career",
-    desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
-    cover: "../images/blog/b1.webp",
+    title: "Result of 2k23 Batch",
+    desc: "",
+    cover: "../images/blog/1.webp",
   },
   {
     id: 2,
-    type: "admin",
-    date: "API. 25, 2022",
-    com: "5 COMMENTS ",
-    title: "Build your Dream Software & Engineering Career",
-    desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
-    cover: "../images/blog/b2.webp",
+    title: "Sankalp classes Schedule ",
+    desc: "",
+    cover: "../images/blog/1.webp",
   },
   {
     id: 3,
-    type: "user",
-    date: "MAY. 15, 2022",
-    com: "10 COMMENTS ",
-    title: "Build your Dream Software & Engineering Career",
-    desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
-    cover: "../images/blog/b3.webp",
+    title: "Attendance of 2k22 ",
+    desc: "",
+    cover: "../images/blog/1.webp",
   },
-  {
-    id: 4,
-    type: "admin",
-    date: "JAN. 02, 2022",
-    com: "3 COMMENTS ",
-    title: "Build your Dream Software & Engineering Career",
-    desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
-    cover: "../images/blog/b4.webp",
-  },
-  {
-    id: 5,
-    type: "admin",
-    date: "DEC. 14, 2022",
-    com: "3 COMMENTS ",
-    title: "Build your Dream Software & Engineering Career",
-    desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
-    cover: "../images/blog/b5.webp",
-  },
-  {
-    id: 6,
-    type: "user",
-    date: "JAN. 18, 2021",
-    com: "12 COMMENTS ",
-    title: "Build your Dream Software & Engineering Career",
-    desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
-    cover: "../images/blog/b6.webp",
-  },
+  // {
+  //   id: 4,
+  //   type: "admin",
+  //   date: "JAN. 02, 2022",
+  //   com: "3 COMMENTS ",
+  //   title: "Build your Dream Software & Engineering Career",
+  //   desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
+  //   cover: "../images/blog/b4.webp",
+  // },
+  // {
+  //   id: 5,
+  //   type: "admin",
+  //   date: "DEC. 14, 2022",
+  //   com: "3 COMMENTS ",
+  //   title: "Build your Dream Software & Engineering Career",
+  //   desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
+  //   cover: "../images/blog/b5.webp",
+  // },
+  // {
+  //   id: 6,
+  //   type: "user",
+  //   date: "JAN. 18, 2021",
+  //   com: "12 COMMENTS ",
+  //   title: "Build your Dream Software & Engineering Career",
+  //   desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
+  //   cover: "../images/blog/b6.webp",
+  // },
 ]
 export const testimonal = [
   {
